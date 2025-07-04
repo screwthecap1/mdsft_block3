@@ -18,6 +18,6 @@ public class RoomServiceImpl<T extends Room> implements RoomService<T> {
     @Override
     public void free(Room room) {
         room.setReserved(false);
-        System.out.println("Room " + room.getRmNum() + " is new free.");
+        System.out.println("Room " + room.getRmNum() + " is now free.");
     }
 }
